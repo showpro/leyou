@@ -10,10 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author zhan
- * @create 2019-05-04-18:18
- */
+
 @Service
 public class SpecificationServiceImpl implements SpecificationService {
 
