@@ -20,8 +20,12 @@ public interface SpecificationService {
 
     /**
      * 根据条件查询规格参数
+     *
      * @param gid
+     * @param cid
+     * @param generic
+     * @param searching
      * @return
      */
-    List<SpecParam> queryParams(Long gid);
+    List<SpecParam> queryParams(Long gid, Long cid, Boolean generic, Boolean searching);
 }
